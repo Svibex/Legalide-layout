@@ -178,7 +178,7 @@ h1 {
 }
 
 .advice {
-  padding: 80px 0;
+  padding: 82px 0 108px 0;
   background-color: #FAFAFA;
 }
 
@@ -197,13 +197,13 @@ h1 {
 .advice_card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   background-color: #FFFFFF;
   height: 321px;
-  width: 240px;
+  width: 232px;
 }
 .advice_card h4 {
+  margin-left: 30px;
   color: #252B42;
   font-family: "Martel", serif;
   font-size: 16px;
@@ -211,22 +211,29 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.1000000015px;
   text-align: left;
-  width: 145px;
+  width: 172px;
   margin-top: 30px;
 }
 .advice_card p {
   color: #737373;
-  width: 150px;
+  width: 161px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.200000003px;
   text-align: left;
+  margin-left: 30px;
+  margin-top: -17px;
+}
+.advice_card img {
+  width: 230px;
+  margin: 0 auto;
 }
 
 .aboutCompany {
   margin-top: 100px;
+  padding-bottom: 43px;
 }
 
 .aboutCompany_title {
@@ -238,7 +245,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 100px auto;
-  width: 1053px;
+  width: 1040px;
   height: 442px;
   position: relative;
 }
@@ -246,8 +253,58 @@ h1 {
 .aboutCompany_container__play {
   position: absolute;
   z-index: 999;
-  left: 229px;
+  left: 251px;
   top: 171px;
+}
+
+.aboutCompany_information {
+  width: 333px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutCompany_information_title {
+  width: 333px;
+  padding-bottom: 20px;
+  margin-top: 29px;
+}
+.aboutCompany_information_title .subtitle {
+  width: 306px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.aboutCompany_information_facts li {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 12px;
+}
+.aboutCompany_information_facts li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+.aboutCompany_information_facts__text1 {
+  font-family: "Martel", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  color: #252B42;
+}
+
+.aboutCompany_information_facts__text2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #737373;
+  margin-top: 5px;
 }
 
 .companies {
@@ -266,7 +323,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1050px;
+  width: 980px;
   height: 175px;
   margin: 0 auto;
 }
@@ -278,7 +335,6 @@ h1 {
   background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
   position: absolute;
   z-index: 2;
-  bottom: -57px;
   left: 227px;
   display: flex;
   align-items: center;
@@ -307,8 +363,8 @@ h1 {
   height: 58px;
   width: 450px;
   border-radius: 5px;
-  overflow: hidden;
-  border: 1px solid #FFFFFF;
+  display: flex;
+  align-items: center;
 }
 .companies_inputAndButton input {
   height: 58px;
@@ -321,10 +377,12 @@ h1 {
   text-align: left;
   color: #737373;
   padding-left: 20px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #FFFFFF;
 }
 .companies_inputAndButton button {
-  height: 57px;
-  width: 115px;
+  height: 58px;
+  width: 117px;
   background-color: #D0A144;
   padding: 15px 22.5px;
   color: #FFFFFF;
@@ -335,11 +393,113 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: center;
   margin-left: -4px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #FFFFFF;
 }
 
 .companies_stripe {
   background-color: #252B42;
   height: 77px;
+  margin-top: -77px;
+}
+
+.communication {
+  background-color: #FAFAFA;
+  height: 808px;
+}
+
+.communication_title {
+  padding-top: 80px;
+  height: 100px;
+  padding-left: 5px;
+}
+.communication_title .subtitle {
+  margin-top: 10px;
+}
+
+.communication_cards {
+  height: 393px;
+  width: 985px;
+  margin: 160px auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.communication_card {
+  width: 329px;
+  height: 333px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #252B42;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 40px;
+  align-items: center;
+}
+.communication_card img {
+  width: 72px;
+}
+.communication_card .communication_card_email1 {
+  margin-top: 5px;
+}
+.communication_card .communication_card_email2 {
+  margin-top: -13px;
+}
+.communication_card button {
+  background-color: transparent;
+  border: 1px solid #D0A144;
+  color: #D0A144;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  width: 154px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.communication_card_support {
+  font-family: "Martel", serif;
+  font-size: 16px;
+  letter-spacing: 0.1000000015px;
+}
+
+.communication_card_active {
+  background-color: #252B42;
+  color: #FFFFFF;
+  height: 393px;
+  padding: 80px 40px;
+}
+
+.footer {
+  background-color: #FFFFFF;
+}
+
+.footer_request {
+  height: 142px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.footer_contacts {
+  background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+  height: 272px;
+}
+
+.footer_social {
+  height: 74px;
 }
 
 /*# sourceMappingURL=style.css.map */
