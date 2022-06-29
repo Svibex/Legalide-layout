@@ -38,8 +38,10 @@ h1
 nav
   display: flex
   align-items: center
+  width: 513px
+  margin-right: 22px
 
-.startPage_navigation
+.startPage_navigation_block1
   display: flex
   justify-content: space-between
   align-items: center
@@ -50,19 +52,29 @@ nav
   letter-spacing: 0.20000000298023224px
   text-align: center
   color: $gray
-  width: 373px
-  margin-right: 140px
+  width: 275px
+  margin-right: 145px
+
+.startPage_navigation_block2
+  display: flex
+  align-items: center
+  width: 194px
+  margin-left: -141px
   img
     display: block
+
 
 .startPage_navigation_word
   margin-right: 21px
 
-.startPage_navigation_icon
+#startPage_navigation_icon1
   margin-left: 39px
-  margin-right: 10px
+  margin-right: 17px
 
-.startPage_navigation_burger
+#startPage_navigation_icon2
+  margin-right: 140px
+
+#startPage_navigation_burger
   height: 14px
   width: 24px
 
@@ -633,3 +645,21 @@ h5
 
 .footer_social_icons4
   height: 18px
+
+@media (max-width: 414px)
+  header
+    background: $white
+    width: 414px
+    height: 532px
+
+  h1
+    margin-left: 35px
+
+  nav
+    flex-direction: column-reverse
+
+  .startPage_navigation_burger
+    margin-right: 38px
+
+  .startPage_navigation
+    flex-direction: column
