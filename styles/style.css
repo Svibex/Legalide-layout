@@ -25,9 +25,15 @@ h1 {
   margin-left: 136px;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
 .startPage_navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -35,6 +41,25 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: center;
   color: #737373;
+  width: 373px;
+  margin-right: 140px;
+}
+.startPage_navigation img {
+  display: block;
+}
+
+.startPage_navigation_word {
+  margin-right: 21px;
+}
+
+.startPage_navigation_icon {
+  margin-left: 39px;
+  margin-right: 10px;
+}
+
+.startPage_navigation_burger {
+  height: 14px;
+  width: 24px;
 }
 
 .startPage_information_wrapper {
@@ -71,6 +96,7 @@ h1 {
   text-align: left;
   color: #252B42;
   width: 509px;
+  margin-top: 155px;
 }
 
 .startPage_information__text {
@@ -81,11 +107,17 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: #737373;
+  margin-top: 34px;
+}
+
+.startPage_information_buttons {
+  margin-top: 34px;
 }
 
 .startPage_information_button1 {
   background-color: #784F33;
   color: #FFFFFF;
+  margin-right: 5px;
 }
 
 .startPage_information_button2 {
@@ -96,6 +128,7 @@ h1 {
 .startPageImg {
   display: block;
   height: 681px;
+  margin-left: 2px;
 }
 
 .cards {
@@ -133,6 +166,7 @@ h1 {
   text-align: center;
   color: #737373;
   width: 464px;
+  margin-left: -4px;
 }
 
 .cards_title {
@@ -191,13 +225,17 @@ h1 {
   margin: 0 auto;
 }
 
+#advice_card1 h4, #advice_card1 p {
+  padding-left: 3px;
+}
+
 .advice_card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #FFFFFF;
   height: 321px;
-  width: 232px;
+  width: 238px;
 }
 .advice_card h4 {
   margin-left: 30px;
@@ -242,7 +280,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 100px auto;
-  width: 1040px;
+  width: 1048px;
   height: 442px;
   position: relative;
 }
@@ -250,7 +288,7 @@ h1 {
 .aboutCompany_container__play {
   position: absolute;
   z-index: 999;
-  left: 251px;
+  left: 249px;
   top: 171px;
 }
 
@@ -259,6 +297,7 @@ h1 {
   height: 424px;
   display: flex;
   flex-direction: column;
+  margin-right: 9px;
 }
 
 .aboutCompany_information_title {
@@ -320,9 +359,42 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 980px;
+  width: 1050px;
   height: 175px;
   margin: 0 auto;
+}
+
+#companies_group_img1 {
+  width: 103px;
+  height: 34px;
+  margin-left: 24px;
+}
+
+#companies_group_img2 {
+  width: 83px;
+  height: 59px;
+}
+
+#companies_group_img3 {
+  width: 102px;
+  height: 75px;
+}
+
+#companies_group_img4 {
+  width: 103px;
+  height: 42px;
+}
+
+#companies_group_img5 {
+  width: 104px;
+  height: 62px;
+  margin-left: -4px;
+}
+
+#companies_group_img6 {
+  width: 76px;
+  height: 72px;
+  margin-right: 36px;
 }
 
 .companies_input_wrapper {
@@ -354,6 +426,7 @@ h1 {
   letter-spacing: 0.1000000015px;
   text-align: left;
   width: 253px;
+  margin-left: -3px;
 }
 
 .companies_inputAndButton {
@@ -365,7 +438,7 @@ h1 {
 }
 .companies_inputAndButton input {
   height: 58px;
-  width: 333px;
+  width: 335px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -373,7 +446,7 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: #737373;
-  padding-left: 20px;
+  padding-left: 17px;
   border-radius: 5px 0 0 5px;
   border: 1px solid #FFFFFF;
 }
@@ -410,13 +483,17 @@ h1 {
   height: 100px;
   padding-left: 5px;
 }
+.communication_title .title {
+  margin-left: -8px;
+}
 .communication_title .subtitle {
   margin-top: 10px;
+  margin-left: -9px;
 }
 
 .communication_cards {
   height: 393px;
-  width: 985px;
+  width: 991px;
   margin: 160px auto 0 auto;
   display: flex;
   align-items: center;
@@ -443,7 +520,7 @@ h1 {
   width: 72px;
 }
 .communication_card .communication_card_email1 {
-  margin-top: 5px;
+  margin-top: 1px;
 }
 .communication_card .communication_card_email2 {
   margin-top: -13px;
@@ -528,6 +605,7 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: #737373;
+  margin-left: -1px;
 }
 
 .footer_contacts_wrapper {
@@ -540,7 +618,7 @@ h1 {
 .footer_contacts {
   display: flex;
   justify-content: space-between;
-  width: 1048px;
+  width: 1050px;
   margin: 0 auto;
 }
 
@@ -608,7 +686,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1049px;
+  width: 1050px;
   margin: 0 auto;
 }
 .footer_social p {
