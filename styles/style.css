@@ -782,7 +782,8 @@ h5 {
     flex-direction: column;
     align-items: center;
     height: 1054px;
-    background-image: url("../img/background.png");
+    background: center url("../img/background.png");
+    background-size: 100% 100%;
     width: 414px;
   }
   .startPage_information {
