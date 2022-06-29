@@ -306,6 +306,9 @@ h1 {
 .companies_inputAndButton {
   height: 58px;
   width: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #FFFFFF;
 }
 .companies_inputAndButton input {
   height: 58px;
@@ -317,10 +320,11 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: left;
   color: #737373;
+  padding-left: 20px;
 }
 .companies_inputAndButton button {
-  height: 58px;
-  width: 117px;
+  height: 57px;
+  width: 115px;
   background-color: #D0A144;
   padding: 15px 22.5px;
   color: #FFFFFF;
