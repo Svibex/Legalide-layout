@@ -74,7 +74,6 @@ h1 {
   text-align: left;
   color: #252B42;
   width: 509px;
-  padding-left: 133px;
 }
 
 .startPage_information__text {
@@ -136,7 +135,7 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: center;
   color: #737373;
-  width: 431px;
+  width: 464px;
 }
 
 .cards_title {
@@ -224,6 +223,119 @@ h1 {
   line-height: 20px;
   letter-spacing: 0.200000003px;
   text-align: left;
+}
+
+.aboutCompany {
+  margin-top: 100px;
+}
+
+.aboutCompany_title {
+  height: 105px;
+  margin-bottom: 100px;
+}
+
+.aboutCompany_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 100px auto;
+  width: 1053px;
+  height: 442px;
+  position: relative;
+}
+
+.aboutCompany_container__play {
+  position: absolute;
+  z-index: 999;
+  left: 229px;
+  top: 171px;
+}
+
+.companies {
+  height: 339px;
+  background-color: #FAFAFA;
+}
+
+.companies_wrapper {
+  width: 1440px;
+  height: 339px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.companies_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  height: 175px;
+  margin: 0 auto;
+}
+
+.companies_input_wrapper {
+  height: 124px;
+  width: 986px;
+  margin: 20px auto;
+  background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+  position: absolute;
+  z-index: 2;
+  bottom: -57px;
+  left: 227px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.companies_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 883px;
+}
+.companies_input p {
+  color: #FFFFFF;
+  font-family: "Martel", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  width: 253px;
+}
+
+.companies_inputAndButton {
+  height: 58px;
+  width: 450px;
+}
+.companies_inputAndButton input {
+  height: 58px;
+  width: 333px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #737373;
+}
+.companies_inputAndButton button {
+  height: 58px;
+  width: 117px;
+  background-color: #D0A144;
+  padding: 15px 22.5px;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  margin-left: -4px;
+}
+
+.companies_stripe {
+  background-color: #252B42;
+  height: 77px;
 }
 
 /*# sourceMappingURL=style.css.map */
